@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:text="버튼1"
+            android:background="#A3D97D"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center">
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:text="버튼2"
+            android:background="#A3D97D"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="#F99999">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:background="#A3D97D"
+            android:text="버튼3" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:background="#A3D97D"
+            android:text="버튼4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:text="버튼5"
+            android:background="#A3D97D"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center">
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:text="버튼6"
+            android:background="#A3D97D"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+</LinearLayout>

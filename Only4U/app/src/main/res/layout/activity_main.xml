@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="#D9D9D9"
+    tools:context="com.example.kopo.only4u.MainActivity">
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D9D9D9"
+        android:layout_weight="0.7"
+        android:gravity="center">
+
+
+      &lt;!&ndash;  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 같은 노래 영상이 지겨운 당신만을 위한  랜덤 영상 추천 서비스\r\n
+                                            Only For You"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:background="@drawable/back"/>&ndash;&gt;
+    </LinearLayout>-->
+    <!--이미지 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.7"
+        android:foreground="@drawable/main">
+
+
+    </LinearLayout>
+    <!--버튼 레이아웃-->
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:text="START"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="@drawable/back"/>
+</LinearLayout>
